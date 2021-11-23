@@ -1,0 +1,516 @@
+/* CODE FOR ACCESSIBLE SKIP LINK – DO NOT DELETE */
+
+.skip-link {
+  position: absolute;
+  padding: .5rem 1rem;
+  color: #fff;
+  background-color: #212121;
+  text-decoration: none;
+  z-index: 10;
+  transform: translateY(-100%);
+  transition: transform .3s ease-out;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  outline: #fff solid .125rem;
+}
+
+@media print {
+  .skip-link {
+    display: none;
+  }
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+header {
+  background-color: #051E1F;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  
+}
+
+
+
+header img{
+  padding: 1.5rem;
+  width: 300px;
+  padding-left: 3rem;
+
+
+}
+
+header a {
+  font-family: 'Poppins', sans-serif;
+  color: #eee;
+  font-size: 1rem;
+  
+}
+
+header i{
+  color: #eee;
+  padding-left: 15rem;
+
+}
+
+.hero img {
+    width: 100%;
+    background-image: url("../img/header-hero.jpg");
+  }
+
+  .hero .grid-x{
+    margin:0;
+  }
+
+  .layered-text{
+    display: grid;
+    place-items: center;
+   
+   
+  }
+
+  .layered-text * {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .layered-text h1{
+    color: #eee;
+    text-align: center;
+
+
+  }
+
+  .layered-text h2{
+    color: #eee;
+    text-align: center;
+  }
+
+  .layered-text img{
+    height: 100%;
+  }
+
+  .layered-text .color-block {
+
+    background-color:rgba(0,0,0,.25);
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .inner-text{
+    text-align: center;
+    width: 60%;
+  }
+
+ 
+  .inner-text h1{
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.header-hero {
+display: grid;
+
+}
+
+.header-hero * {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.header-hero h1{
+  z-index: 1;
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #eee;
+  padding-top: 10rem;
+
+}
+
+.header-hero h2{
+  z-index: 1;
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1;
+  padding-top: 7rem;
+  color: #eee;
+  padding-bottom: 3rem;
+}
+
+
+
+
+.header-hero a{
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  background-color: #F5B860;
+  color: #434F2F;
+  font-weight: 400;
+  font-size: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+.booking th{
+  background-color: #434F2F;
+  color: #eee;
+  padding-left: 2rem;
+}
+
+.button {
+border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  background-color:#F5B860;
+  color:#052729;
+
+
+}
+
+
+
+
+
+
+
+.description{
+  background-color: #052729;
+  padding: 9rem;
+
+}
+
+.description h2{
+color: #eee;
+text-align: center;
+font-family: 'Bodoni Moda', serif;
+padding: 1rem;
+font-size: 3rem;
+}
+
+.description p{
+  color: #eee;
+  text-align: center;
+
+}
+
+.description img{
+  padding-top: 3rem;
+
+
+}
+
+
+
+
+
+.rose-cliff{  
+  background-color: #434F2F;
+  
+
+}
+
+
+.rose-cliff h1 {
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 600;
+  color: #eee;
+  line-height: 1;
+  margin: 0;
+  font-size: 5rem;
+  padding-bottom: 1rem;
+}
+
+.rose-cliff .title {
+  padding: 2rem;
+  
+}
+
+.rose-cliff p{
+  margin: 0;
+  color: #eee;
+  font-family: 'poppins', sans-serif;
+  padding-bottom: 2rem;
+  font-size: 1rem;
+
+}
+
+
+.room-hero{
+  padding-bottom: 4rem;
+}
+
+.room-hero h1{
+font-weight: 600;
+padding-bottom: 20rem;
+
+
+}
+
+.room-hero p {
+  color: #eee;
+  font-size: 1.5rem;
+
+
+}
+
+
+.room-hero i{
+  color: #eee;
+  font-size: 3rem;
+
+}
+
+
+
+
+
+.card h3{
+ color: #eee;
+ font-weight: 600;
+ padding-bottom: 1rem;
+ text-align: center;
+ font-family: 'Bodoni Moda', serif;
+
+}
+
+.card h4{
+  font-size: 1rem;
+}
+
+.card {
+  padding: 1rem;
+  background-color: #052729;
+  color: #eee;
+
+
+
+}
+
+.card a{
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  background-color: #F5B860;
+  color: #434F2F;
+}
+
+
+
+
+
+
+
+
+
+.amenities{
+  background-color: #434F2F;
+  color: #eee;
+
+
+}
+
+.amenities h1{
+  padding-left: 4rem;
+  padding-top: 2rem;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 5rem;
+
+
+}
+
+.amenities p{
+  font-size: 1rem;
+  padding-top: .5rem;
+}
+
+.amenities i{
+  padding-top: 8rem;
+  font-size: 5rem;
+
+}
+
+
+
+
+
+
+
+
+.hotel-gallery h1{
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1.5rem;
+  color: #052729;
+
+}
+
+
+.copy-hero h2{
+  text-align: center;
+  font-family: 'Bodoni Moda', serif;
+  color: #eee;
+  background-color:#434F2F;
+  padding: 10rem;
+  
+
+}
+
+
+
+.experience-newport i{
+  color: #eee;
+  font-size: 3rem;
+}
+
+
+.experience-newport h1 {
+  color: #eee;
+  font-size: 4rem;
+
+
+}
+
+.center-court h3{
+  padding-bottom: 3rem;
+}
+
+
+
+.experiences {
+  background-color: #052729;
+  color: #eee;
+  text-align: center;
+}
+
+
+.experiences h3 {
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+  padding-top: 7rem;
+}
+
+.experiences p{
+  padding-bottom: 7rem;
+}
+
+
+.social-media{
+  padding-bottom: 4rem;
+}
+
+.social-media h2 {
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+  color: #052729;
+
+
+}
+
+
+.social-media h3{
+  color:#052729
+}
+
+
+footer{
+  background-color: #052729;
+
+}
+
+footer img{
+  padding: 2rem;
+  width: 300px;
+  padding-left: 3rem;
+
+
+
+}
+
+footer h3{
+  color: #eee;
+  font-weight: 600;
+  font-family: 'poppins', sans-serif;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+
+
+}
+
+footer h4{
+  color: #eee;
+  font-family: 'poppins', sans-serif;
+  font-size: 1rem;
+}
+
+footer i{
+  color: #eee;
+  padding-bottom: 3rem;
+}
+
+
+.copyright {
+  background-color: #eee;
+  text-align: center;
+}
+
+.copyright h5{
+  font-size: 1rem;
+}
